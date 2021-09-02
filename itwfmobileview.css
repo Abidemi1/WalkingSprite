@@ -1,0 +1,104 @@
+
+body
+{
+    /*background-image: url('pic.jpg');*/
+    background-repeat: no-repeat;
+    background-color: black;
+}
+h1
+{
+text-align: center;
+font-size:x-large;
+color: white;
+}
+
+div.paragraph
+{
+border: none;
+width:600px;
+height: 140px;
+position: fixed;
+color: white;
+left: 10px;
+text-align: center;
+}
+
+p
+{
+font-size: 18px;
+}
+ div.purpose
+{
+  border: none;
+  width: 520px;
+  position: fixed;
+  bottom:570px;
+  left: 110px;
+}
+
+/*@media mobile only screen and (max-width:600px){*/
+  div.login{
+    border: none;
+    width:120px;
+    height:50px;
+    position:fixed;
+    right:120px;
+    bottom:127px;
+    text-align:center;
+  }
+  a[href]{
+    position: fixed;
+    top: 560px;
+    list-style-type: none;
+    right: 10px;
+    color: white;
+    font-weight: bold;
+  }
+
+ 
+   div.form{
+     border: none;
+    width: 350px;
+    height: 240px;
+    position: fixed;
+    left: 100px;
+    top: 300px;
+  }
+#member{
+  font-size: small;
+  top: 550px;
+  position: fixed;
+  right: 60px;
+  color: white;
+}
+#image
+{
+width: 150px;
+height: 150px;
+}
+
+td
+{
+  color: white;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .jumbotron
+  {
+    border:none;
+    width: 750px;
+    height: 459px;
+    position: absolute;
+    left: 650px;
+    top: 90px;
+  }
+  

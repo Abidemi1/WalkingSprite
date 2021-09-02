@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>It Works Fitness</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  -->
+  <link rel="stylesheet" href="itwfmobileview.css"/>
+  <script src="formfitness.js"></script>
+</head>
+<body> 
+  <div id="image">
+<img src="logo.jpg" alt="ITWF" width="100" height="100"/>
+<div class="purpose"> 
+  <h1 style="font-size: xx-large;">Focus Never Give Up</h1>
+</div>
+ </div>
+ <div>
+</div>
+ <div class = 'paragraph'> 
+<h1> WELCOME TO J'DIPO FITNESS PAGE</h1>
+<p>This Page is for users that are planning to Focus and change their lifestyle.</p> 
+ <p style="text-align: center;"> <strong>To book your Class please fill in the form.</strong></p>
+ <br/>
+ <br/>
+ </div>
+ <div class="form"> 
+  <form name="form">
+    <h2 style="text-align: center; color: white;">Book Your Class</h2>
+    <table width = '410' height='0' border="0">
+        <tr>
+            <td><strong> First Name:</strong> </td>
+            <td> <input type="text"></td>
+            <br/>
+        </tr>
+         <tr>
+          <td><strong> Last Name:</strong> </td>
+        <td><input type="text"> </td>
+        </tr>
+        <tr>
+          <td><strong> Email Address:</strong> </td>
+          <td><input type="email"></td>
+        </tr>
+        <tr>
+          <td><strong> Gender:</strong> </td>
+          <td>Male <input  id="male" type="radio" value="radio" name="gender"></td>
+          <td style="position: fixed; left: 350px;">Female <input id="female" type="radio" name="gender"></td>
+        </tr>
+        <tr>
+          <td><strong> Age Group:</strong> </td>
+          <td>
+              <select name="Age">
+                <option value="YourAge" id="Age">Select</option>
+                  <option value="YourAge" id="Teen">13-19</option>
+                  <option value="YourAge" id="Young">20-26</option>
+                  <option value="YourAge" id="Adult">27-34</option>
+                  <option value="YourAge" id="Old">35-41</option>
+                  <opttion value="YourAge" id="Old1">42+</opttion>
+              </select>
+          </td>
+      </tr>
+      <tr>
+        <td><strong> Choose a Class:</strong> </td>
+        <td>
+            <select name="Class">
+              <option value="Select" id="class">Choose</option>
+                <option value="1on1" id="1on1">1on1</option>
+                <option value="Group" id="Group">Group Class</option>
+</tr>
+<td><button class="btn" type="submit" onsubmit="formValidation()">Sumbit</button>
+  <div class="login">
+  <p id = 'member'><strong>Already a member?</strong><a href="">Login</a></p>
+ </div></td> 
+</form> 
+    </table>
+  </div>
+  <div class="jumbotron">
+    <video controls width="750px" height="470px"  loop autoplay>
+      <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+    </div>
+  </div>
+</body>
+</html>
